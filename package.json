@@ -1,0 +1,49 @@
+{
+  "name": "node-qarma",
+  "version": "1.0.0",
+  "description": "REST apis for support tasks using nodejs and fastify ",
+  "main": "index.js",
+  "author": "arunpq",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "tsc && node dist/index.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/busboy": "^0.2.4",
+    "@types/compression": "^1.7.0",
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongoose": "^5.7.29",
+    "@types/node": "^14.0.15",
+    "@types/uuid": "^8.0.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "fastify": "^3.18.1",
+    "fastify-auth": "^1.1.0",
+    "fastify-jwt": "^3.0.0",
+    "fastify-multipart": "^4.0.7",
+    "fastify-oas": "^3.0.8",
+    "fastify-plugin": "^3.0.0",
+    "hide-powered-by": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "middie": "^5.3.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.9.21",
+    "uuid": "^8.2.0"
+  },
+  "engines": {
+    "node": "^12.13.1"
+  }
+}
